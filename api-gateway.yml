@@ -2,5 +2,5 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: ${DB_PASSWORD:root}
-    url: ${JDBC_URL:jdbc:mysql://localhost:3307/credentialdb}
+    url: ${JDBC_URL:jdbc:mysql://localhost:3306/credentialdb}
     username: ${DB_USER:root}
